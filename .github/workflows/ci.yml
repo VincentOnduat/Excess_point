@@ -18,11 +18,12 @@ jobs:
 
       - run: npm ci
       - run: npm run build
+      - run: npm run check
 
       # Catches the two mistakes most likely to slip through: a content JSON
       # file that doesn't parse, and a build that doesn't complete.
       - name: Validate content JSON
         run: |
-          for f in content/categories/*.json content/posts/*.json content/affiliate-links.json; do
+          for f in src/lib/content/categories/*.json src/lib/content/posts/*.json src/lib/content/affiliate-links.json; do
             node -e "JSON.parse(require('fs').readFileSync('$f', 'utf8'))" || (echo "Invalid JSON: $f" && exit 1)
           done

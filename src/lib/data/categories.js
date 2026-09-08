@@ -20,7 +20,7 @@ import travel from '../content/categories/travel.json';
  */
 
 /** @type {Category[]} */
-export const categories = [car, home, pet, life, travel];
+export const categories = /** @type {any} */ ([car, home, pet, life, travel]);
 
 /** @param {string} id */
 export function getCategory(id) {

@@ -19,6 +19,7 @@ npm run dev       # http://localhost:5173
 ```bash
 npm run build      # outputs a static site to /build
 npm run preview     # preview the production build locally
+npm run check       # typecheck (svelte-check) — run before pushing
 ```
 
 The site is fully static (SvelteKit + `adapter-static`) — no backend, no
@@ -29,26 +30,30 @@ host by pointing it at the `build/` folder after `npm run build`.
 
 ```
 excess-point/
-├── content/                      ← edit this, not src/, for day-to-day content
-│   ├── categories/                 5 files: the comparison-page content
-│   │   ├── car.json                 (glossary, feature table, checklist)
-│   │   ├── home.json
-│   │   ├── pet.json
-│   │   ├── life.json
-│   │   └── travel.json
-│   ├── posts/                     one JSON file per guide/social-source article
-│   │   └── third-party-vs-comprehensive-car-insurance.json   (example)
-│   └── affiliate-links.json       your actual affiliate URLs, once approved
-│
 ├── src/
 │   ├── app.html                   page shell
 │   ├── lib/
+│   │   ├── content/                ← edit this, not the rest of src/, for
+│   │   │   │                       day-to-day content (lives under src/lib
+│   │   │   │                       so Vite's dev server can serve it)
+│   │   │   ├── categories/           5 files: the comparison-page content
+│   │   │   │   ├── car.json            (glossary, feature table, checklist)
+│   │   │   │   ├── home.json
+│   │   │   │   ├── pet.json
+│   │   │   │   ├── life.json
+│   │   │   │   └── travel.json
+│   │   │   ├── posts/               one JSON file per guide/social-source
+│   │   │   │   │                    article
+│   │   │   │   ├── types.js           JSDoc `Post` type shared by the blog
+│   │   │   │   │                      routes
+│   │   │   │   └── third-party-vs-comprehensive-car-insurance.json (example)
+│   │   │   └── affiliate-links.json your actual affiliate URLs, once approved
 │   │   ├── components/            Nav, Hero, CategorySection, GlossaryChip,
 │   │   │                          ComparisonTable, Checklist, AffiliateCTA,
 │   │   │                          Disclosure, Footer
 │   │   ├── data/                  categories.js / affiliateLinks.js
-│   │   │                          (load the JSON in /content — edit content,
-│   │   │                          not these files)
+│   │   │                          (load the JSON in lib/content — edit
+│   │   │                          content, not these files)
 │   │   └── styles/tokens.css      the whole design system (colours, type,
 │   │                              light/dark) lives here
 │   └── routes/
@@ -56,7 +61,7 @@ excess-point/
 │       ├── +page.svelte           homepage — hero + all 5 categories
 │       ├── disclosure/+page.svelte  standalone page for a social bio link
 │       └── blog/                  guides list + [slug] detail pages,
-│                                  generated from content/posts/*.json
+│                                  generated from lib/content/posts/*.json
 │
 ├── docs/
 │   ├── COMPLIANCE.md              CAP Code + FCA notes — read before posting
@@ -71,10 +76,10 @@ excess-point/
 
 ## The three things you'll actually touch week to week
 
-1. **`content/affiliate-links.json`** — paste in real URLs once a program
-   approves you. Until then, each category shows a clearly labelled
+1. **`src/lib/content/affiliate-links.json`** — paste in real URLs once a
+   program approves you. Until then, each category shows a clearly labelled
    placeholder instead of a dead or fake link.
-2. **`content/posts/*.json`** — one file per guide. Use
+2. **`src/lib/content/posts/*.json`** — one file per guide. Use
    `scripts/new-post-template.md` to draft a new one; the social caption
    lives in the same file as the article so they never drift apart.
 3. **`docs/COMPLIANCE.md`**'s per-program table — tick off what each
@@ -99,10 +104,11 @@ with your commercial content in it, not something to open-source. There's
 no LICENSE file for the same reason; if you ever do want to make part of
 it public/reusable, add one deliberately rather than by default.
 
-A GitHub Actions workflow (`.github/workflows/ci.yml`) runs `npm run build`
-and validates every content JSON file on every push and pull request — it's
-the check this sandbox couldn't run locally when the site was first
-scaffolded, so it's worth watching that it goes green after your first push.
+A GitHub Actions workflow (`.github/workflows/ci.yml`) runs `npm run build`,
+`npm run check` (typecheck), and validates every content JSON file on every
+push and pull request — it's the check this sandbox couldn't run locally
+when the site was first scaffolded, so it's worth watching that it goes
+green after your first push.
 
 ### Deploying
 
@@ -116,7 +122,7 @@ from `package.json`.
 
 The site itself is static content, not something that writes itself.
 What *can* be automated is the drafting step — a scheduled job that
-generates a new `content/posts/*.json` draft on a cadence, for you to
+generates a new `src/lib/content/posts/*.json` draft on a cadence, for you to
 review and edit before it goes live. Given affiliate/financial content
 carries real compliance requirements (CAP Code disclosure, accuracy), fully
 unattended auto-publish isn't something to set up here — draft-then-review
