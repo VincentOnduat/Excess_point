@@ -4,7 +4,7 @@
   import Checklist from './Checklist.svelte';
   import AffiliateCTA from './AffiliateCTA.svelte';
 
-  /** @type {import('$lib/data/categories.js').categories[number]} */
+  /** @type {import('$lib/data/categories.js').Category} */
   export let category;
 </script>
 

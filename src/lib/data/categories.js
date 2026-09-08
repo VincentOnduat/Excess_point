@@ -2,14 +2,27 @@
 // Edit the JSON files in /content/categories to change what appears on
 // the site — nothing in src/ needs to change for a content update.
 
-import car from '../../../content/categories/car.json';
-import home from '../../../content/categories/home.json';
-import pet from '../../../content/categories/pet.json';
-import life from '../../../content/categories/life.json';
-import travel from '../../../content/categories/travel.json';
+import car from '../content/categories/car.json';
+import home from '../content/categories/home.json';
+import pet from '../content/categories/pet.json';
+import life from '../content/categories/life.json';
+import travel from '../content/categories/travel.json';
 
+/**
+ * @typedef {Object} Category
+ * @property {string} id
+ * @property {string} num
+ * @property {string} name
+ * @property {string} intro
+ * @property {{ term: string, def: string }[]} glossary
+ * @property {{ head: string[], rows: [string, ...boolean[]][] }} table
+ * @property {string[]} checklist
+ */
+
+/** @type {Category[]} */
 export const categories = [car, home, pet, life, travel];
 
+/** @param {string} id */
 export function getCategory(id) {
   return categories.find((c) => c.id === id);
 }
