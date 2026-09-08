@@ -15,9 +15,9 @@
     </a>
     <span class="cta-note mono">(Ad) via {link.program}</span>
   {:else}
-    <a class="btn btn-primary" href="#" aria-disabled="true" on:click|preventDefault>
+    <button class="btn btn-primary" type="button" disabled>
       Compare {categoryName.toLowerCase()} quotes →
-    </a>
+    </button>
     <span class="cta-note mono">affiliate link placeholder — add one in content/affiliate-links.json</span>
   {/if}
 </div>
@@ -25,4 +25,5 @@
 <style>
   .cat-cta { margin-top: 26px; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
   .cta-note { font-size: 0.72rem; color: var(--text-muted); }
+  button.btn:disabled { opacity: 0.6; cursor: not-allowed; }
 </style>
