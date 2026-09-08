@@ -1,0 +1,22 @@
+{
+  "name": "excess-point",
+  "version": "0.1.0",
+  "private": true,
+  "description": "UK insurance comparison and buying-guide site (affiliate content, not a broker).",
+  "type": "module",
+  "engines": {
+    "node": ">=18.13"
+  },
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^3.0.1",
+    "@sveltejs/kit": "^2.5.0",
+    "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "svelte": "^4.2.12",
+    "vite": "^5.1.0"
+  }
+}
