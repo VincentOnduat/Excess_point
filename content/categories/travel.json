@@ -1,0 +1,29 @@
+{
+  "id": "travel",
+  "num": "05",
+  "name": "Travel insurance",
+  "intro": "An annual multi-trip policy is often cheaper than two single trips a year — but only if the activities and destinations you actually do are covered.",
+  "glossary": [
+    { "term": "Single trip", "def": "Covers one specific trip, for its exact dates and destination." },
+    { "term": "Annual multi-trip", "def": "Covers unlimited trips within a year, each up to a maximum duration — usually 31 or 45 days per trip." },
+    { "term": "Medical excess", "def": "The amount you pay first if you claim for medical treatment abroad, separate from any general policy excess." },
+    { "term": "Existing conditions", "def": "Health conditions you had before buying the policy — most insurers require these to be declared and priced in, or they can void a related claim." }
+  ],
+  "table": {
+    "head": ["Covers…", "Single trip", "Annual multi-trip", "Backpacker"],
+    "rows": [
+      ["One trip, exact dates", true, false, false],
+      ["Unlimited trips per year", false, true, false],
+      ["Long single trip (3–12+ months)", false, false, true],
+      ["Winter sports (usually add-on)", false, false, false],
+      ["Cancellation before departure", true, true, true]
+    ]
+  },
+  "checklist": [
+    "Declare existing medical conditions accurately — even ones that feel minor or unrelated to travel.",
+    "Check whether your activities (skiing, diving, hiking above altitude limits) need an add-on.",
+    "Confirm the region of cover actually includes every country on your itinerary.",
+    "Check baggage and gadget single-item limits against what you're actually carrying.",
+    "Remember a GHIC/EHIC only covers state-provided care in the EU — it isn't a substitute for travel insurance."
+  ]
+}

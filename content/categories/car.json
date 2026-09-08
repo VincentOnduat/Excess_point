@@ -1,0 +1,30 @@
+{
+  "id": "car",
+  "num": "01",
+  "name": "Car insurance",
+  "intro": "The three cover levels sound like a ladder of price, but the middle option covers less than most drivers expect. Here's what each actually includes.",
+  "glossary": [
+    { "term": "Excess", "def": "The amount you pay towards a claim before your insurer pays the rest. 'Compulsory' excess is set by the insurer; 'voluntary' excess is extra you choose to lower your premium." },
+    { "term": "No-claims discount (NCD)", "def": "A discount that grows for each claim-free year, and can usually be 'protected' for a fee so one claim doesn't reset it to zero." },
+    { "term": "IPID", "def": "Insurance Product Information Document — a short, standardised summary every UK insurer must give you before you buy, listing what's covered and what's excluded." },
+    { "term": "Third party", "def": "The legal minimum: covers injury or damage you cause to other people and their property, but nothing of your own." }
+  ],
+  "table": {
+    "head": ["Covers…", "Third party only", "Third party, fire & theft", "Comprehensive"],
+    "rows": [
+      ["Injury/damage to others", false, true, true],
+      ["Your car if stolen", false, true, true],
+      ["Your car after a fire", false, true, true],
+      ["Your car after an accident (any fault)", false, false, true],
+      ["Windscreen cover", false, false, true],
+      ["Courtesy car while repaired", false, false, true]
+    ]
+  },
+  "checklist": [
+    "Add compulsory + voluntary excess together — that's what you'd actually pay per claim.",
+    "Check whether NCD protection is included or an extra cost, and what it actually protects.",
+    "Confirm your annual mileage estimate is realistic — insurers can reduce payouts if it's under-declared.",
+    "Declare every modification, even cosmetic ones — undeclared mods can void a claim.",
+    "If a telematics/black-box policy, check the curfew and driving-score rules before you agree to one."
+  ]
+}

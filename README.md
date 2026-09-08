@@ -9,14 +9,6 @@ social post points back to.
 "Excess Point" is a placeholder brand name — rename it wherever it appears
 before you launch.
 
-<img src="docs/assets/social-reach-plan.svg" alt="Excess Point at the centre, reaching out to Instagram, TikTok, X, LinkedIn, YouTube and Pinterest" width="480" />
-
-The site is the hub; `scripts/social/` turns each guide into a first-draft
-post for all six spokes above. See
-[`docs/SOCIAL_DISTRIBUTION.md`](docs/SOCIAL_DISTRIBUTION.md) for the
-workflow and — importantly — where each platform legally requires the
-affiliate disclosure to sit.
-
 ## Get it running
 
 ```bash
@@ -68,20 +60,10 @@ excess-point/
 │
 ├── docs/
 │   ├── COMPLIANCE.md              CAP Code + FCA notes — read before posting
-│   ├── CONTENT_CALENDAR.md        template for planning weeks of content
-│   ├── SOCIAL_DISTRIBUTION.md     the hub → six-platform plan, and the
-│   │                              disclosure placement rules per platform
-│   └── assets/social-reach-plan.svg
+│   └── CONTENT_CALENDAR.md        template for planning weeks of content
 │
 ├── scripts/
-│   ├── new-post-template.md       fill-in template for a new guide + caption
-│   └── social/                    turns one guide into a draft per platform
-│       ├── platforms.json           IG/TikTok/X/LinkedIn/YouTube/Pinterest specs
-│       ├── generate.js              node scripts/social/generate.js <slug>
-│       └── README.md
-│
-├── content/social-drafts/<slug>/  generated output of the script above
-│                                  (one .md per platform, edited by hand)
+│   └── new-post-template.md       fill-in template for a new guide + caption
 │
 ├── static/                        favicon, robots.txt
 └── .env.example                   copy to .env for analytics/publisher IDs
@@ -99,9 +81,6 @@ excess-point/
    affiliate program actually allows (PPC, paid social, email) before you
    post or spend anything there. This is the part most people skip and
    regret.
-4. **`node scripts/social/generate.js <slug>`** — once a guide is written,
-   this drafts the Instagram/TikTok/X/LinkedIn/YouTube/Pinterest versions
-   for you to edit down, each with the right disclosure already in place.
 
 ## Pushing this to GitHub
 

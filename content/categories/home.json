@@ -1,0 +1,29 @@
+{
+  "id": "home",
+  "num": "02",
+  "name": "Home insurance",
+  "intro": "Buildings and contents cover protect different things, and 'accidental damage' is usually an add-on to both rather than included by default.",
+  "glossary": [
+    { "term": "Buildings cover", "def": "Protects the physical structure — walls, roof, fitted kitchens and bathrooms — against damage from fire, storms, escape of water and similar events." },
+    { "term": "Contents cover", "def": "Protects what's inside — furniture, electronics, clothing, valuables — up to the policy's overall limit and any single-item limits." },
+    { "term": "Accidental damage", "def": "Covers mishaps like a dropped TV or spilled paint on a carpet. Usually excluded unless added separately, and priced separately for buildings vs contents." },
+    { "term": "Sum insured", "def": "The maximum your insurer will pay out — for buildings, this should reflect rebuild cost, not market value or purchase price." }
+  ],
+  "table": {
+    "head": ["Covers…", "Buildings only", "Contents only", "Combined"],
+    "rows": [
+      ["Structure, fixtures & fittings", true, false, true],
+      ["Possessions inside the home", false, true, true],
+      ["Alternative accommodation if unliveable", true, true, true],
+      ["Garden, sheds & outbuildings", true, false, true],
+      ["Accidental damage (usually optional add-on)", false, false, false]
+    ]
+  },
+  "checklist": [
+    "Use a rebuild-cost calculator for the sum insured — not what you paid or what it's worth on the market.",
+    "Check the single-item limit for jewellery, tech and bikes against what you actually own.",
+    "Read the unoccupied-property clause — cover can lapse after as little as 30 days empty.",
+    "Confirm required security (locks, alarm) matches what's fitted — mismatches can void a claim.",
+    "If you're in a flood-risk postcode, ask specifically how flood is covered, not just assumed."
+  ]
+}

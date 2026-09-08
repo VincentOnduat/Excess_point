@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+
+      - run: npm ci
+      - run: npm run build
+
+      # Catches the two mistakes most likely to slip through: a content JSON
+      # file that doesn't parse, and a build that doesn't complete.
+      - name: Validate content JSON
+        run: |
+          for f in content/categories/*.json content/posts/*.json content/affiliate-links.json; do
+            node -e "JSON.parse(require('fs').readFileSync('$f', 'utf8'))" || (echo "Invalid JSON: $f" && exit 1)
+          done

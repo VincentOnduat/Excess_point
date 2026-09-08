@@ -1,0 +1,29 @@
+{
+  "id": "life",
+  "num": "04",
+  "name": "Life insurance",
+  "intro": "Term length and premium structure should match what the money is actually for — a mortgage isn't the same job as replacing income for a family.",
+  "glossary": [
+    { "term": "Level term", "def": "Pays a fixed sum if you die within the term. Premiums usually stay flat for the whole term." },
+    { "term": "Decreasing term", "def": "The payout shrinks over time, usually to track a repayment mortgage balance — cheaper than level term for the same starting cover." },
+    { "term": "Whole of life", "def": "Covers you for life rather than a fixed term, guaranteeing a payout eventually — priced much higher than term policies." },
+    { "term": "Guaranteed premiums", "def": "Premiums fixed at outset and won't rise; 'reviewable' premiums can increase at set points, often making a policy cheaper early and pricier later." }
+  ],
+  "table": {
+    "head": ["Best fits…", "Level term", "Decreasing term", "Whole of life"],
+    "rows": [
+      ["Repayment mortgage", false, true, false],
+      ["Income replacement for dependants", true, false, false],
+      ["Guaranteed eventual payout / funeral costs", false, false, true],
+      ["Lower premium for the same starting cover", false, true, false],
+      ["Premium generally stays flat", true, true, false]
+    ]
+  },
+  "checklist": [
+    "Size the cover to the actual need — outstanding mortgage, or years of income multiplied by dependants.",
+    "Write the policy 'in trust' — it usually pays out faster and outside inheritance tax.",
+    "Check guaranteed vs reviewable premiums, and what triggers a review.",
+    "Decide whether a critical illness add-on is worth the extra premium for your situation.",
+    "Answer health questions accurately — non-disclosure is the most common reason claims are refused."
+  ]
+}

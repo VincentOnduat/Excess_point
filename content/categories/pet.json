@@ -1,0 +1,29 @@
+{
+  "id": "pet",
+  "num": "03",
+  "name": "Pet insurance",
+  "intro": "The policy type matters more than the price for anything chronic — 'time-limited' and 'lifetime' policies handle an ongoing condition very differently.",
+  "glossary": [
+    { "term": "Lifetime cover", "def": "Reinstates your claim limit every renewal for as long as the policy continues — the only type that reliably covers a long-term condition year after year." },
+    { "term": "Time-limited", "def": "Covers a condition for a set period (often 12 months) or up to a cap, then excludes it as 'pre-existing' afterwards." },
+    { "term": "Maximum benefit", "def": "Covers a condition up to a fixed total amount with no time limit — once that pot is used, it's excluded, regardless of how long it took." },
+    { "term": "Excess per condition", "def": "Many pet policies charge the excess once per condition per year, not once per year overall — so multiple issues mean multiple excesses." }
+  ],
+  "table": {
+    "head": ["Covers ongoing conditions…", "Accident only", "Time-limited", "Maximum benefit", "Lifetime"],
+    "rows": [
+      ["Year after year, same condition", false, false, false, true],
+      ["Limit resets each renewal", false, false, false, true],
+      ["Vet fees for accidents", true, true, true, true],
+      ["Illness cover", false, true, true, true],
+      ["Premium tends to rise with claims/age", false, false, false, true]
+    ]
+  },
+  "checklist": [
+    "Check for a co-payment percentage on top of the excess for older pets — it's easy to miss.",
+    "Ask about breed-specific exclusions (hip dysplasia, brachycephalic conditions) before you buy.",
+    "Confirm whether dental illness and complementary therapies (hydrotherapy, physio) are included.",
+    "If insuring more than one pet, check the multi-pet discount actually applies per-policy, not per-claim.",
+    "Ask the insurer for their typical renewal price increase after a claim, not just the first-year price."
+  ]
+}

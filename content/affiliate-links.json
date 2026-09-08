@@ -1,0 +1,8 @@
+{
+  "_comment": "Fill in `url` once a program approves you, and `program` with its name. Leave url empty and the site shows a clearly-labelled placeholder instead of a dead/fake link.",
+  "car":    { "program": "", "url": "" },
+  "home":   { "program": "", "url": "" },
+  "pet":    { "program": "", "url": "" },
+  "life":   { "program": "", "url": "" },
+  "travel": { "program": "", "url": "" }
+}
