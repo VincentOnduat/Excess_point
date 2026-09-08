@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="860" viewBox="0 0 900 860" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0" y="0" width="900" height="860" fill="#F4F6FB"/>
+
+    <!-- soft shadow under hub -->
+    <ellipse cx="450" cy="450" rx="150" ry="40" fill="#1F2740" opacity="0.08"/>
+
+    <!-- tentacles -->
+
+    <defs>
+      <linearGradient id="grad_IG" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#4B5673"/>
+        <stop offset="100%" stop-color="#C13584" stop-opacity="0.85"/>
+      </linearGradient>
+    </defs>
+    <path d="M 462.6,343.4 L 467.8,336.6 L 472.3,329.7 L 476.0,322.8 L 478.9,315.8 L 481.1,308.8 L 482.6,301.8 L 483.4,295.0 L 483.7,288.2 L 483.5,281.6 L 482.8,275.2 L 481.7,268.9 L 480.3,262.8 L 478.7,256.7 L 476.8,250.8 L 474.8,245.1 L 472.6,239.4 L 470.4,233.7 L 468.2,228.2 L 466.0,222.7 L 463.8,217.3 L 461.7,211.9 L 459.7,206.5 L 457.9,201.2 L 456.3,195.9 L 454.9,190.7 L 453.8,185.4 L 453.0,180.2 L 452.5,175.0 L 452.4,169.7 L 452.7,164.4 L 453.5,159.1 L 454.7,153.7 L 445.3,150.3 L 443.0,156.4 L 441.4,162.5 L 440.2,168.6 L 439.5,174.8 L 439.3,180.9 L 439.4,187.1 L 439.9,193.2 L 440.7,199.3 L 441.7,205.3 L 442.9,211.3 L 444.2,217.2 L 445.7,223.1 L 447.2,228.9 L 448.8,234.7 L 450.2,240.4 L 451.7,246.0 L 453.0,251.5 L 454.1,256.9 L 455.0,262.2 L 455.8,267.4 L 456.2,272.4 L 456.4,277.3 L 456.2,282.1 L 455.8,286.6 L 455.0,291.0 L 453.8,295.3 L 452.3,299.5 L 450.3,303.7 L 448.0,307.8 L 445.0,312.0 L 441.6,316.2 L 437.4,320.6 Z" fill="url(#grad_IG)" stroke="#2A3145" stroke-width="1.5" stroke-opacity="0.25"/>
+<circle cx="474.0" cy="299.9" r="4.4" fill="#ffffff" fill-opacity="0.35"/>
+<circle cx="471.6" cy="258.4" r="3.6" fill="#ffffff" fill-opacity="0.35"/>
+<circle cx="458.4" cy="219.0" r="2.9" fill="#ffffff" fill-opacity="0.35"/>
+<circle cx="448.9" cy="180.4" r="2.6" fill="#ffffff" fill-opacity="0.35"/>
+
+    <defs>
+      <linearGradient id="grad_TT" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#4B5673"/>
+        <stop offset="100%" stop-color="#111111" stop-opacity="0.85"/>
+      </linearGradient>
+    </defs>
+    <path d="M 551.1,386.2 L 552.7,380.4 L 554.7,375.3 L 556.8,370.7 L 559.2,366.5 L 561.8,362.8 L 564.7,359.4 L 567.9,356.2 L 571.3,353.3 L 575.0,350.6 L 579.0,348.1 L 583.3,345.8 L 587.9,343.7 L 592.8,341.7 L 597.8,339.9 L 603.1,338.2 L 608.5,336.6 L 614.1,335.0 L 619.8,333.4 L 625.5,331.9 L 631.3,330.3 L 637.2,328.6 L 643.0,326.8 L 648.8,324.9 L 654.5,322.7 L 660.2,320.3 L 665.7,317.7 L 671.1,314.8 L 676.3,311.5 L 681.3,307.8 L 686.0,303.7 L 690.4,299.2 L 694.6,294.3 L 687.0,287.7 L 682.9,291.5 L 678.7,294.9 L 674.2,297.8 L 669.6,300.3 L 664.8,302.5 L 659.9,304.4 L 654.8,306.1 L 649.6,307.5 L 644.2,308.7 L 638.7,309.8 L 633.1,310.8 L 627.3,311.7 L 621.5,312.5 L 615.7,313.3 L 609.7,314.2 L 603.8,315.1 L 597.8,316.1 L 591.7,317.2 L 585.7,318.5 L 579.7,320.1 L 573.7,322.0 L 567.7,324.2 L 561.8,326.8 L 555.9,329.9 L 550.2,333.5 L 544.7,337.7 L 539.4,342.5 L 534.5,347.9 L 529.9,353.9 L 525.7,360.6 L 522.0,367.9 L 518.7,375.8 Z" fill="url(#grad_TT)" stroke="#2A3145" stroke-width="1.5" stroke-opacity="0.25"/>
+<circle cx="558.7" cy="352.9" r="4.4" fill="#ffffff" fill-opacity="0.35"/>
+<circle cx="590.7" cy="334.8" r="3.6" fill="#ffffff" fill-opacity="0.35"/>
+<circle cx="630.1" cy="324.7" r="2.9" fill="#ffffff" fill-opacity="0.35"/>
+<circle cx="669.2" cy="311.1" r="2.6" fill="#ffffff" fill-opacity="0.35"/>
+
+    <defs>
+      <linearGradient id="grad_X" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#4B5673"/>
+        <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0.85"/>
+      </linearGradient>
+    </defs>
+    <path d="M 518.7,484.2 L 522.0,492.1 L 525.7,499.4 L 529.9,506.1 L 534.5,512.1 L 539.4,517.5 L 544.7,522.3 L 550.2,526.5 L 555.9,530.1 L 561.8,533.2 L 567.7,535.8 L 573.7,538.0 L 579.7,539.9 L 585.7,541.5 L 591.7,542.8 L 597.8,543.9 L 603.8,544.9 L 609.7,545.8 L 615.7,546.7 L 621.5,547.5 L 627.3,548.3 L 633.1,549.2 L 638.7,550.2 L 644.2,551.3 L 649.6,552.5 L 654.8,553.9 L 659.9,555.6 L 664.8,557.5 L 669.6,559.7 L 674.2,562.2 L 678.7,565.1 L 682.9,568.5 L 687.0,572.3 L 694.6,565.7 L 690.4,560.8 L 686.0,556.3 L 681.3,552.2 L 676.3,548.5 L 671.1,545.2 L 665.7,542.3 L 660.2,539.7 L 654.5,537.3 L 648.8,535.1 L 643.0,533.2 L 637.2,531.4 L 631.3,529.7 L 625.5,528.1 L 619.8,526.6 L 614.1,525.0 L 608.5,523.4 L 603.1,521.8 L 597.8,520.1 L 592.8,518.3 L 587.9,516.3 L 583.3,514.2 L 579.0,511.9 L 575.0,509.4 L 571.3,506.7 L 567.9,503.8 L 564.7,500.6 L 561.8,497.2 L 559.2,493.5 L 556.8,489.3 L 554.7,484.7 L 552.7,479.6 L 551.1,473.8 Z" fill="url(#grad_X)" stroke="#2A3145" stroke-width="1.5" stroke-opacity="0.25"/>
+<circle cx="550.7" cy="515.8" r="4.4" fill="#ffffff" fill-opacity="0.35"/>
+<circle cx="587.8" cy="534.5" r="3.6" fill="#ffffff" fill-opacity="0.35"/>
+<circle cx="628.5" cy="542.7" r="2.9" fill="#ffffff" fill-opacity="0.35"/>
+<circle cx="666.7" cy="553.8" r="2.6" fill="#ffffff" fill-opacity="0.35"/>
+
+    <defs>
+      <linearGradient id="grad_in" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#4B5673"/>
+        <stop offset="100%" stop-color="#0A66C2" stop-opacity="0.85"/>
+      </linearGradient>
+    </defs>
+    <path d="M 437.4,539.4 L 441.6,543.8 L 445.0,548.0 L 448.0,552.2 L 450.3,556.3 L 452.3,560.5 L 453.8,564.7 L 455.0,569.0 L 455.8,573.4 L 456.2,577.9 L 456.4,582.7 L 456.2,587.6 L 455.8,592.6 L 455.0,597.8 L 454.1,603.1 L 453.0,608.5 L 451.7,614.0 L 450.2,619.6 L 448.8,625.3 L 447.2,631.1 L 445.7,636.9 L 444.2,642.8 L 442.9,648.7 L 441.7,654.7 L 440.7,660.7 L 439.9,666.8 L 439.4,672.9 L 439.3,679.1 L 439.5,685.2 L 440.2,691.4 L 441.4,697.5 L 443.0,703.6 L 445.3,709.7 L 454.7,706.3 L 453.5,700.9 L 452.7,695.6 L 452.4,690.3 L 452.5,685.0 L 453.0,679.8 L 453.8,674.6 L 454.9,669.3 L 456.3,664.1 L 457.9,658.8 L 459.7,653.5 L 461.7,648.1 L 463.8,642.7 L 466.0,637.3 L 468.2,631.8 L 470.4,626.3 L 472.6,620.6 L 474.8,614.9 L 476.8,609.2 L 478.7,603.3 L 480.3,597.2 L 481.7,591.1 L 482.8,584.8 L 483.5,578.4 L 483.7,571.8 L 483.4,565.0 L 482.6,558.2 L 481.1,551.2 L 478.9,544.2 L 476.0,537.2 L 472.3,530.3 L 467.8,523.4 L 462.6,516.6 Z" fill="url(#grad_in)" stroke="#2A3145" stroke-width="1.5" stroke-opacity="0.25"/>
+<circle cx="462.4" cy="562.7" r="4.4" fill="#ffffff" fill-opacity="0.35"/>
+<circle cx="462.1" cy="599.4" r="3.6" fill="#ffffff" fill-opacity="0.35"/>
+<circle cx="451.1" cy="638.6" r="2.9" fill="#ffffff" fill-opacity="0.35"/>
+<circle cx="443.4" cy="679.3" r="2.6" fill="#ffffff" fill-opacity="0.35"/>
+
+    <defs>
+      <linearGradient id="grad_YT" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#4B5673"/>
+        <stop offset="100%" stop-color="#FF0000" stop-opacity="0.85"/>
+      </linearGradient>
+    </defs>
+    <path d="M 368.7,462.4 L 360.2,461.3 L 352.0,460.8 L 344.1,461.1 L 336.6,462.1 L 329.5,463.7 L 322.7,465.9 L 316.3,468.6 L 310.3,471.7 L 304.8,475.2 L 299.5,479.0 L 294.6,483.1 L 290.0,487.4 L 285.6,491.8 L 281.5,496.4 L 277.4,501.0 L 273.6,505.7 L 269.8,510.4 L 266.1,515.1 L 262.5,519.8 L 258.9,524.4 L 255.3,528.9 L 251.6,533.3 L 247.9,537.5 L 244.1,541.6 L 240.3,545.4 L 236.3,549.0 L 232.2,552.3 L 227.9,555.3 L 223.4,558.1 L 218.6,560.5 L 213.6,562.5 L 208.3,564.1 L 210.2,573.9 L 216.5,572.8 L 222.7,571.2 L 228.5,569.2 L 234.2,566.7 L 239.7,563.8 L 244.9,560.6 L 250.0,557.2 L 254.8,553.5 L 259.6,549.6 L 264.1,545.5 L 268.6,541.4 L 273.0,537.2 L 277.3,532.9 L 281.5,528.7 L 285.7,524.6 L 289.8,520.6 L 293.9,516.7 L 298.1,513.0 L 302.2,509.5 L 306.3,506.3 L 310.5,503.4 L 314.6,500.8 L 318.8,498.6 L 323.0,496.7 L 327.2,495.2 L 331.5,494.0 L 335.9,493.3 L 340.4,492.9 L 345.2,492.9 L 350.3,493.3 L 355.7,494.2 L 361.5,495.6 Z" fill="url(#grad_YT)" stroke="#2A3145" stroke-width="1.5" stroke-opacity="0.25"/>
+<circle cx="325.3" cy="474.3" r="4.4" fill="#ffffff" fill-opacity="0.35"/>
+<circle cx="290.6" cy="497.1" r="3.6" fill="#ffffff" fill-opacity="0.35"/>
+<circle cx="263.1" cy="528.2" r="2.9" fill="#ffffff" fill-opacity="0.35"/>
+<circle cx="234.4" cy="555.8" r="2.6" fill="#ffffff" fill-opacity="0.35"/>
+
+    <defs>
+      <linearGradient id="grad_P" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#4B5673"/>
+        <stop offset="100%" stop-color="#E60023" stop-opacity="0.85"/>
+      </linearGradient>
+    </defs>
+    <path d="M 361.5,364.4 L 355.7,365.8 L 350.3,366.7 L 345.2,367.1 L 340.4,367.1 L 335.9,366.7 L 331.5,366.0 L 327.2,364.8 L 323.0,363.3 L 318.8,361.4 L 314.6,359.2 L 310.5,356.6 L 306.3,353.7 L 302.2,350.5 L 298.1,347.0 L 293.9,343.3 L 289.8,339.4 L 285.7,335.4 L 281.5,331.3 L 277.3,327.1 L 273.0,322.8 L 268.6,318.6 L 264.1,314.5 L 259.6,310.4 L 254.8,306.5 L 250.0,302.8 L 244.9,299.4 L 239.7,296.2 L 234.2,293.3 L 228.5,290.8 L 222.7,288.8 L 216.5,287.2 L 210.2,286.1 L 208.3,295.9 L 213.6,297.5 L 218.6,299.5 L 223.4,301.9 L 227.9,304.7 L 232.2,307.7 L 236.3,311.0 L 240.3,314.6 L 244.1,318.4 L 247.9,322.5 L 251.6,326.7 L 255.3,331.1 L 258.9,335.6 L 262.5,340.2 L 266.1,344.9 L 269.8,349.6 L 273.6,354.3 L 277.4,359.0 L 281.5,363.6 L 285.6,368.2 L 290.0,372.6 L 294.6,376.9 L 299.5,381.0 L 304.8,384.8 L 310.3,388.3 L 316.3,391.4 L 322.7,394.1 L 329.5,396.3 L 336.6,397.9 L 344.1,398.9 L 352.0,399.2 L 360.2,398.7 L 368.7,397.6 Z" fill="url(#grad_P)" stroke="#2A3145" stroke-width="1.5" stroke-opacity="0.25"/>
+<circle cx="328.8" cy="374.4" r="4.4" fill="#ffffff" fill-opacity="0.35"/>
+<circle cx="297.2" cy="355.8" r="3.6" fill="#ffffff" fill-opacity="0.35"/>
+<circle cx="268.7" cy="326.7" r="2.9" fill="#ffffff" fill-opacity="0.35"/>
+<circle cx="237.4" cy="299.6" r="2.6" fill="#ffffff" fill-opacity="0.35"/>
+
+    <!-- hub / octopus head -->
+    <defs>
+      <radialGradient id="hubGrad" cx="35%" cy="30%" r="75%">
+        <stop offset="0%" stop-color="#5B6A9C"/>
+        <stop offset="100%" stop-color="#232B45"/>
+      </radialGradient>
+    </defs>
+    <circle cx="450" cy="430" r="104" fill="url(#hubGrad)" stroke="#ffffff" stroke-width="4"/>
+    <circle cx="450" cy="430" r="104" fill="none" stroke="#1F2740" stroke-width="1" stroke-opacity="0.2"/>
+
+    <!-- simple friendly octopus eyes on the hub -->
+    <circle cx="422" cy="412" r="7" fill="#ffffff"/>
+    <circle cx="478" cy="412" r="7" fill="#ffffff"/>
+    <circle cx="424" cy="413" r="3.2" fill="#1F2740"/>
+    <circle cx="480" cy="413" r="3.2" fill="#1F2740"/>
+
+    <text x="450" y="452" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="#ffffff" letter-spacing="0.5">EXCESS</text>
+    <text x="450" y="476" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="#ffffff" letter-spacing="0.5">POINT</text>
+
+    <!-- platform nodes -->
+
+    <g>
+      <circle cx="450.0" cy="100.0" r="52" fill="#C13584" opacity="0.12"/>
+      <circle cx="450.0" cy="100.0" r="46" fill="#C13584" stroke="#ffffff" stroke-width="3"/>
+      <text x="450.0" y="107.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#ffffff">IG</text>
+    </g>
+
+    <g>
+      <circle cx="735.8" cy="265.0" r="52" fill="#111111" opacity="0.12"/>
+      <circle cx="735.8" cy="265.0" r="46" fill="#111111" stroke="#ffffff" stroke-width="3"/>
+      <text x="735.8" y="272.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#ffffff">TT</text>
+    </g>
+
+    <g>
+      <circle cx="735.8" cy="595.0" r="52" fill="#0A0A0A" opacity="0.12"/>
+      <circle cx="735.8" cy="595.0" r="46" fill="#0A0A0A" stroke="#ffffff" stroke-width="3"/>
+      <text x="735.8" y="602.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#ffffff">X</text>
+    </g>
+
+    <g>
+      <circle cx="450.0" cy="760.0" r="52" fill="#0A66C2" opacity="0.12"/>
+      <circle cx="450.0" cy="760.0" r="46" fill="#0A66C2" stroke="#ffffff" stroke-width="3"/>
+      <text x="450.0" y="767.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#ffffff">in</text>
+    </g>
+
+    <g>
+      <circle cx="164.2" cy="595.0" r="52" fill="#FF0000" opacity="0.12"/>
+      <circle cx="164.2" cy="595.0" r="46" fill="#FF0000" stroke="#ffffff" stroke-width="3"/>
+      <text x="164.2" y="602.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#ffffff">YT</text>
+    </g>
+
+    <g>
+      <circle cx="164.2" cy="265.0" r="52" fill="#E60023" opacity="0.12"/>
+      <circle cx="164.2" cy="265.0" r="46" fill="#E60023" stroke="#ffffff" stroke-width="3"/>
+      <text x="164.2" y="272.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#ffffff">P</text>
+    </g>
+
+    <!-- labels -->
+    <text x="450.0" y="34.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="600" fill="#2A3145">Instagram</text>
+<text x="735.8" y="199.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="600" fill="#2A3145">TikTok</text>
+<text x="735.8" y="673.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="600" fill="#2A3145">X</text>
+<text x="450.0" y="838.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="600" fill="#2A3145">LinkedIn</text>
+<text x="164.2" y="673.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="600" fill="#2A3145">YouTube</text>
+<text x="164.2" y="199.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="600" fill="#2A3145">Pinterest</text>
+</svg>
