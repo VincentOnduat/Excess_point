@@ -1,0 +1,50 @@
+{
+  "instagram": {
+    "label": "Instagram",
+    "format": "Carousel or Reel + caption",
+    "captionLimit": 2200,
+    "hashtags": "3–8, placed at the end",
+    "disclosurePlacement": "First line of the caption — \"(Ad)\" or \"#ad\", never only in the bio.",
+    "notes": "Lead with the surprising fact, not the brand name. Carousel: one card per checklist item works well."
+  },
+  "tiktok": {
+    "label": "TikTok",
+    "format": "Short video script + on-screen text + caption",
+    "captionLimit": 2200,
+    "hashtags": "2–5, specific over generic",
+    "disclosurePlacement": "Spoken or on-screen text in the first 3 seconds, AND \"#ad\" as the first tag — a caption-only disclosure isn't enough here.",
+    "notes": "Hook has to land before second 2. State the surprising fact as a question or a myth-bust."
+  },
+  "x": {
+    "label": "X",
+    "format": "Single post or short thread",
+    "captionLimit": 280,
+    "hashtags": "0–2, rarely necessary",
+    "disclosurePlacement": "\"(Ad)\" at the very start of the first post in the thread.",
+    "notes": "One sharp claim per post. Save the nuance for the linked guide."
+  },
+  "linkedin": {
+    "label": "LinkedIn",
+    "format": "Text post, optionally with an image of the comparison table",
+    "captionLimit": 3000,
+    "hashtags": "3–5, industry-relevant",
+    "disclosurePlacement": "\"(Ad)\" or \"This post contains an affiliate link\" as the first line.",
+    "notes": "Frame it as a consumer-protection insight, not a sales pitch — this audience reacts badly to hype."
+  },
+  "youtube": {
+    "label": "YouTube (Shorts or long-form)",
+    "format": "Video script + description",
+    "captionLimit": 5000,
+    "hashtags": "3–5 in description, not title",
+    "disclosurePlacement": "Verbal disclosure in the video itself AND \"(Ad)\" at the top of the description — YouTube's own paid-promotion toggle doesn't cover affiliate links.",
+    "notes": "Description should stand alone as a mini version of the guide, since many viewers only read it."
+  },
+  "pinterest": {
+    "label": "Pinterest",
+    "format": "Pin image (use the comparison table or checklist as the graphic) + title + description",
+    "captionLimit": 500,
+    "hashtags": "Not used — Pinterest ranks on keywords in the title/description instead",
+    "disclosurePlacement": "\"(Ad)\" or \"Paid partnership\" at the start of the description.",
+    "notes": "Titles are searched more than seen — write the title as the actual question someone would type."
+  }
+}
